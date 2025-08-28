@@ -34,7 +34,7 @@ This project is a single blog preview card component, designed to be visually ap
 ## Demo
 
 - Solution URL: [GitHub Repository](https://github.com/Mi6aRdnv/Blog-preview-card)
-- Live Site URL: <!-- [View Demo](https://my-live-site-url.com) -->
+- Live Site URL: [View Demo](https://mi6ardnv.github.io/Blog-preview-card/)
 
 ## Setup
 

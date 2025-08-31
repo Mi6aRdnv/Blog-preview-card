@@ -15,13 +15,15 @@
 :root {
 	font-family: "Figtree", Arial, sans-serif;
 	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: var(--gray-950);
 
 	--yellow: hsl(47, 88%, 63%);
 	--gray-500: hsl(0, 0%, 42%);
 	--gray-950: hsl(0, 0%, 7%);
 
 	margin: 0 auto;
-	text-align: center;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -36,4 +38,8 @@ body {
 	justify-content: center;
 	min-width: 320px;
 	min-height: 100vh;
+}
+p,
+h2 {
+	margin: 0;
 }

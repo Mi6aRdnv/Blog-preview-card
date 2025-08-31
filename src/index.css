@@ -20,9 +20,7 @@
 	--gray-500: hsl(0, 0%, 42%);
 	--gray-950: hsl(0, 0%, 7%);
 
-	max-width: 1440px;
 	margin: 0 auto;
-	padding: 2rem;
 	text-align: center;
 
 	font-synthesis: none;
@@ -32,9 +30,10 @@
 }
 
 body {
+	background-color: yellow;
 	margin: 0;
 	display: flex;
-	place-items: center;
+	justify-content: center;
 	min-width: 320px;
 	min-height: 100vh;
 }

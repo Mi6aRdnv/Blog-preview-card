@@ -1,18 +1,27 @@
 import "./App.css";
+import PreviewCard from "./components/PreviewCard";
 
 function App() {
 	return (
 		<>
-			Learning Published 21 Dec 2023 HTML & CSS foundations These languages are
-			the backbone of every website, defining structure, content, and
-			presentation. Greg Hooper
-			<div class="attribution">
-				Challenge by&nbsp;
-				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-					Frontend Mentor
-				</a>
-				. Coded by <a href="#">Mi6aRdnv</a>.
-			</div>
+			<header className="header"></header>
+			<main className="main">
+				<PreviewCard />
+			</main>
+
+			<footer className="footer">
+				<div className="attribution">
+					Challenge by&nbsp;
+					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+						Frontend Mentor
+					</a>
+					. Coded by&nbsp;
+					<a href="https://github.com/Mi6aRdnv" target="_blank">
+						Mi6aRdnv
+					</a>
+					.
+				</div>
+			</footer>
 		</>
 	);
 }

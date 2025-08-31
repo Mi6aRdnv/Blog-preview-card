@@ -65,17 +65,18 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 ## Folder Structure
 
 ```
-blog-preview-card-main/
-├── design/           # Design previews
-├── public/           # Static assets
-├── src/              # Source code
-│   ├── assets/       # Images, fonts
-│   ├── App.jsx       # Main component
-│   ├── App.css       # Component styles
-│   ├── main.jsx      # Entry point
+blog-preview-card/
+├── design/           # Design preview images
+├── public/           # Static files (favicon, etc.)
+├── src/              # Application source code
+│   ├── assets/       # Images, fonts, and other assets
+│   ├── components/   # Reusable React components
+│   │   └── PreviewCard.jsx   # Blog preview card component
+│   ├── App.jsx       # Root React component
+│   ├── main.jsx      # Application entry point
 │   └── index.css     # Global styles
-├── index.html        # HTML template
-├── package.json      # Project metadata
+├── index.html        # Main HTML file
+├── package.json      # Project configuration
 └── README.md         # Project documentation
 ```
 

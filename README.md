@@ -11,25 +11,16 @@ A solution to the [Frontend Mentor Blog preview card challenge](https://www.fron
 - [Blog Preview Card](#blog-preview-card)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-  - [Features](#features)
   - [Demo](#demo)
   - [Setup](#setup)
   - [Built With](#built-with)
   - [Folder Structure](#folder-structure)
-  - [Continued Development](#continued-development)
   - [Author](#author)
   - [License](#license)
 
 ## Overview
 
-This project is a single blog preview card component, designed to be visually appealing and fully responsive. It is a great exercise for practicing React functional components, JSX, props, states, and modern CSS techniques.
-
-## Features
-
-- Responsive design for desktop and mobile
-- Hover and focus states for all interactive elements
-- Semantic HTML5 markup
-- Custom fonts and assets
+This project is a single blog preview card component, designed to be visually appealing and fully responsive. It is a small project, great for getting familiar with basic React, especially stateless functional components, JSX, and props.
 
 ## Demo
 
@@ -79,14 +70,6 @@ blog-preview-card/
 ├── package.json      # Project configuration
 └── README.md         # Project documentation
 ```
-
-## Continued Development
-
-Areas for future improvement:
-
-- Add animation to card interactions
-- Improve accessibility (a11y)
-- Add more card variants
 
 ## Author
 

@@ -1,29 +1,35 @@
-import cardImage from "../assets/images/illustration-article.svg";
-import authorPhoto from "../assets/images/image-avatar.webp";
 import "./PreviewCard.css";
 
-export default function PreviewCard() {
+export default function PreviewCard({ illustration, content, author }) {
 	return (
 		<div className="card">
+			{/* Illustration */}
 			<div className="card__img-box">
-				<img src={cardImage} alt="" className="card__img" />
+				<img src={illustration} alt="Illustration" className="card__img" />
 			</div>
 
+			{/* Content */}
 			<div className="card__content">
 				<div className="card__tags">
-					<div className="card__tag">Learning</div>
+					{content.tags?.map((tag, index) => (
+						<div className="card__tag" key={index}>
+							{tag}
+						</div>
+					))}
 				</div>
-				<p className="card__data-publication">Published 21 Dec 2023</p>
-				<h2 className="card__title">HTML & CSS foundations</h2>
-				<p className="card__description">
-					These languages are the backbone of every website, defining structure,
-					content, and presentation.
-				</p>
+				<p className="card__data-publication">{content.published}</p>
+				<h2 className="card__title">{content.title}</h2>
+				<p className="card__description">{content.description}</p>
 			</div>
 
+			{/* Author */}
 			<div className="card__author">
-				<img src={authorPhoto} alt="" className="card__author-photo" />
-				<p className="card__author-name">Greg Hooper</p>
+				<img
+					src={author.photo}
+					alt="Author photo"
+					className="card__author-photo"
+				/>
+				<p className="card__author-name">{author.name}</p>
 			</div>
 		</div>
 	);

@@ -32,7 +32,7 @@
 }
 
 body {
-	background-color: yellow;
+	background-color: var(--yellow);
 	margin: 0;
 	display: flex;
 	justify-content: center;
